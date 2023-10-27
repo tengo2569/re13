@@ -1,0 +1,236 @@
+@media (width>1440px) {
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .boxes {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .gridbox {
+        margin-top: 300px;
+        width: auto;
+    }
+
+    h1 {
+        width: 666px;
+        height: 64px;
+        flex-shrink: 0;
+        font-size: 72px;
+        text-align: left;
+        position: relative;
+        left: -20%;
+    }
+
+    .bluebox {
+        width: 1110px;
+        height: 250px;
+        flex-shrink: 0;
+        grid-column: 1/4;
+
+
+    }
+
+    header {
+        width: 100vw;
+        height: 700px;
+        background: #2D2641;
+        background-image: url(./assets/desktop/desktopright.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 40%;
+
+    }
+
+    .mobfamily {
+        display: none;
+    }
+
+    .leftimg,
+    .rightimg {
+        display: none;
+
+    }
+
+    .desimg1 {
+        display: flex;
+        position: absolute;
+        left: 44%;
+        top: 25%;
+
+    }
+
+    .human {
+        position: relative;
+        top: 0%;
+    }
+
+    h4 {
+        width: 540px;
+        height: 140px;
+        flex-shrink: 0;
+        font-size: 72px;
+        left: 45%;
+        text-align: left;
+
+    }
+
+    h5 {
+        width: 525px;
+        height: 84px;
+        flex-shrink: 0;
+        font-size: 16px;
+        text-align: left;
+        left: 45%;
+        top: 55%;
+    }
+
+    .human button {
+        position: absolute;
+        border: 1.5px solid #FFF;
+        background: #FFF;
+        left: 45%;
+        cursor: grab;
+    }
+
+    .human button p {
+        color: #2C2830;
+    }
+
+    .desimg2 {
+        display: flex;
+        position: absolute;
+        top: 70%;
+    }
+
+    .desktrect {
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: 45%;
+    }
+
+    .burgericon {
+        display: none;
+    }
+
+    .desktoplist {
+        display: flex;
+        position: relative;
+        left: 60%;
+        gap: 30px;
+        top: 40%;
+    }
+
+    .desktoplist a {
+        color: #2C2830;
+        text-align: center;
+        font-family: 'Karla';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+    }
+
+    button:hover {
+        background-color: green;
+        transition: 1s;
+        cursor: grab;
+    }
+
+    .desktoplist a:hover {
+        border: 1.5px solid #2C2830;
+        background: green;
+        cursor: grabbing;
+        transition: 1s;
+    }
+
+    .insureimg {
+        left: 15%;
+    }
+
+    .rect {
+        position: relative;
+        left: -42%;
+    }
+    footer{
+        width: 100vw;
+        height: 400px;
+        background-image: url(./assets/desktop/desktopfooter.svg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+       
+    }
+    .footerbox{
+        margin-top: -51px;
+        margin-left: 50px;
+        width: 100vw;
+        height: 250px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+       
+    }
+    /* .contact{
+        background-image: url(./assets/desktop/desktopfooter.svg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: left;
+    } */
+    .contact{
+        background-image: none;
+    }
+    .rect1{
+        position: relative;
+        width: 80%;
+height: 1px;
+flex-shrink: 0;
+left: 10%;
+    }
+    .img1{
+        top: 88%;
+        left: 12%;
+    }
+    .img2{
+        left: 83%;
+    }
+    .icons, h2, .box p{
+        left: 0;
+    }
+    .box p{
+        text-align: left;
+    }
+    .box3 h2{
+        left:0;
+    }
+    h3{
+        width: 472px;
+        height: 112px;
+        font-size: 56px;
+        text-align: left;
+    }
+    .bluebox button{
+        top: 50%;
+        left: 75%;
+
+    }
+    .bluebox img{
+        display: none;
+    }
+    .bluebox{
+        background-image: url(./assets/desktop/worrrrrkkkkkdesssssktooooopppppp.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .img2:hover{
+        cursor: pointer;
+    }
+}
