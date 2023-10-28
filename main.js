@@ -24,7 +24,7 @@ while (n <= 100) {
     n++;
 }
 console.log(answer);
- console.log('დავალება 3')
+ console.log('დავალება 4')
 let num= 1;
 while (num <= 16) {
   if (num % 3 === 0 && num % 5 === 0) {
@@ -39,10 +39,16 @@ while (num <= 16) {
   num++;
 }
 
+console.log("")
+console.log("")
+console.log("")
+console.log("")
+console.log("")
+console.log("")
 
-const logo = document.getElementById('burgericon')
-const viewlist = document.querySelector('.hidelist')
-logo.addEventListener('click', function() {
-    viewlist.classList.toggle('active'); 
-  
+const tengo = document.getElementById("logo");
+const tengo1 = document.querySelector('.hidelist'); 
+
+tengo.addEventListener('click', function() {
+    tengo1.classList.toggle('active'); 
 });

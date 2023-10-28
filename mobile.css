@@ -280,7 +280,11 @@ footer {
 .img2 {
     top: 65%;
 }
+.last{
+    position: absolute;
 
+
+}
 .rect1 {
     width: 327px;
     height: 1px;
@@ -363,7 +367,12 @@ h6 {
 }
 .active{
     transform: translatex(-105%);
-    transition: all 2s;
+    transition: all 3s;
+  }
+  .hidelist{
+    /* transform:translateY(-10%); */
+    transition: 3s;
+    
   }
 .desimg1,
 .desimg2,
@@ -373,13 +382,15 @@ h6 {
     display: none;
 }
 .hidelist{
+    overflow: hidden;
     position: relative;
     width: 375px;
-    height: 652px;
+    height: 670px;
     background-color: #000;
     top: -6%;
     left: 105%;
     display: block;
+    z-index: 2;
     
 }
 .firrstimg{
@@ -424,5 +435,11 @@ h6 {
 .links a:hover{
     border: 1.5px solid #FFF;
     cursor: pointer;
+}
+.mainicon{
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    z-index: 4;
 }
 

@@ -223,10 +223,16 @@
     .hidebox{
         display: none;
     }
+    .hidelist{
+        display: none;
+    }
     .desktoplist{
         display: flex;
         width: 100vw;
         height: 80px;
+    }
+    .mainicon{
+        z-index: 0;
     }
     .desktoplist a{
         color: #2C2830;
