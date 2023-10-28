@@ -1,12 +1,12 @@
 @media (width>1440px) {
-    
-    body{
+
+    body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     .boxes {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -46,6 +46,7 @@
         background-repeat: no-repeat;
         background-position: right;
         background-size: 40%;
+        z-index: 2;
 
     }
 
@@ -121,39 +122,14 @@
         display: none;
     }
 
-    .desktoplist {
-        display: flex;
-        position: relative;
-        left: 60%;
-        gap: 30px;
-        top: 40%;
-    }
-
-    .desktoplist a {
-        color: #2C2830;
-        text-align: center;
-        font-family: 'Karla';
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 1.5px;
-        text-decoration: none;
-    }
-
+   
     button:hover {
         background-color: green;
         transition: 1s;
         cursor: grab;
     }
 
-    .desktoplist a:hover {
-        border: 1.5px solid #2C2830;
-        background: green;
-        cursor: grabbing;
-        transition: 1s;
-    }
-
+    
     .insureimg {
         left: 15%;
     }
@@ -162,75 +138,132 @@
         position: relative;
         left: -42%;
     }
-    footer{
+
+    footer {
         width: 100vw;
         height: 400px;
         background-image: url(./assets/desktop/desktopfooter.svg);
         background-repeat: no-repeat;
         background-size: 50%;
-       
+
     }
-    .footerbox{
+
+    .footerbox {
         margin-top: -51px;
         margin-left: 50px;
         width: 100vw;
         height: 250px;
         display: grid;
         grid-template-columns: auto auto auto auto;
-       
+
     }
-    /* .contact{
-        background-image: url(./assets/desktop/desktopfooter.svg);
-        background-repeat: no-repeat;
-        background-size: 50%;
-        background-position: left;
-    } */
-    .contact{
+
+    .contact {
         background-image: none;
     }
-    .rect1{
+
+    .rect1 {
         position: relative;
         width: 80%;
-height: 1px;
-flex-shrink: 0;
-left: 10%;
+        height: 1px;
+        flex-shrink: 0;
+        left: 10%;
     }
-    .img1{
+
+    .img1 {
         top: 88%;
         left: 12%;
     }
-    .img2{
+
+    .img2 {
         left: 83%;
     }
-    .icons, h2, .box p{
+
+    .icons,
+    h2,
+    .box p {
         left: 0;
     }
-    .box p{
+
+    .box p {
         text-align: left;
     }
-    .box3 h2{
-        left:0;
+
+    .box3 h2 {
+        left: 0;
     }
-    h3{
+
+    h3 {
         width: 472px;
         height: 112px;
         font-size: 56px;
         text-align: left;
     }
-    .bluebox button{
+
+    .bluebox button {
         top: 50%;
         left: 75%;
 
     }
-    .bluebox img{
+
+    .bluebox img {
         display: none;
     }
-    .bluebox{
+
+    .bluebox {
         background-image: url(./assets/desktop/worrrrrkkkkkdesssssktooooopppppp.svg);
         background-repeat: no-repeat;
         background-position: right;
+    
     }
-    .img2:hover{
+
+    .img2:hover {
         cursor: pointer;
     }
+    .hidebox{
+        display: none;
+    }
+    .desktoplist{
+        display: flex;
+        width: 100vw;
+        height: 80px;
+    }
+    .desktoplist a{
+        color: #2C2830;
+text-align: center;
+font-family: 'Karla';
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.5px;
+text-decoration: none;
+gap: 30px;
+height: 11px;
+
+    }
+    .desktoplist a:hover{
+        cursor: grabbing;
+transform: scale(1.5);
+transition: 1s;
+color: #2C2830;
+    }
+    .about{
+        position: relative;
+        top: 30%;
+        left: 40%;
+
+        display: flex;
+        justify-content:space-evenly;
+        gap: 100px;
+        
+    }
+    .firstimg{
+        width: 112px;
+        height: 18px;
+        position: relative;
+        top: 30%;
+        left: 10%;
+    }
+    
 }
